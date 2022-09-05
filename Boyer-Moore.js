@@ -21,7 +21,7 @@ let shift1 = 0;
 
 
 // вторая эвристика
-let tt = new Array(m).fill('*').join('') + t; 
+let tt = t.padStart(m, '*'); 
 let rpr = []; 
 let shift2 = []; 
 for (let l = 0; l < m; l++){
